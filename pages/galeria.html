@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+
+    <!--Header-->
+
+  <header>
+    <div class="container">
+      <div class="row">
+           <div class="col-lg-2 col-xs-6"></div>
+      </div>
+      
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img src="../media/logo.png" class="logoQuilmes"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galería</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contacto
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Email</a></li>
+                <li><a class="dropdown-item" href="#">Teléfono</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Ubicación</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+    
+<!--Contenido principal-->
+
+  <main>
+    <div class="container">
+      <div class="row">
+           <div class="col-lg-2 col-xs-6"></div>
+      </div>
+      <div id="plantilla">
+
+        <section id="galeria" class="galeria">
+          <h2>Galeria de fotos</h2>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../media/ropa2.jpg" class="d-block w-100 fotoGaleria" alt="1">
+              </div>
+              <div class="carousel-item">
+                <img src="../media/ropa1.jpg" class="d-block w-100 fotoGaleria" alt="2">
+              </div>
+              <div class="carousel-item">
+                <img src="../media/ropa3.jpg" class="d-block w-100 fotoGaleria" alt="3">
+              </div>
+              <div class="carousel-item">
+                <img src="../media/ropa4.jpg" class="d-block w-100 fotoGaleria" alt="4">
+              </div>
+              <div class="carousel-item">
+                <img src="../media/ropa5.jpg" class="d-block w-100 fotoGaleria" alt="5">
+              </div>
+              <div class="carousel-item">
+                <img src="../media/ropa6.jpg" class="d-block w-100 fotoGaleria" alt="6">
+              </div>
+              <div class="carousel-item">
+                <img src="../media/ropa7.jpg" class="d-block w-100 fotoGaleria" alt="7">
+              </div>
+              <div class="carousel-item">
+                <img src="../media/ropa8.jpg" class="d-block w-100 fotoGaleria" alt="8">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        </section>
+        
+        
+      
+          <div id="publicidad" class="publicidad">
+            <a title="Coca Cola" href="https://cocacola.com/"><img src="../media/publicidadcoca.jpg" alt="Publicidad" class="publicidadImg"></a>
+            <p class="publicidadText">Publicidad</p>
+        </div>
+    </div>
+  </main>
+
+    <!--Footer-->
+
+
+  <footer id="footer">Todos los derechos reservados © - 2022 - Argentina</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
